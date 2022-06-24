@@ -1,6 +1,8 @@
 import React from 'react';
-import './css/style.css';
-
+import './css/*';
+import './js/*';
+import './images/*';
+import './fonts/*';
 export default function App() {
   return (
     <div>
