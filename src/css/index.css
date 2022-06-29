@@ -68,11 +68,15 @@
     url('../BinancePlex-SemiBold.otf') format('opentype');
   font-weight: 900;
 }
-
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 :root {
-  font-family: BinancePlex, -apple-system, '.SFNSText-Regular', 'San Francisco', BlinkMacSystemFont,
-    '.PingFang-SC-Regular', 'Microsoft YaHei', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial,
-    sans-serif;
+  font-family: BinancePlex, -apple-system, '.SFNSText-Regular', 'San Francisco',
+    BlinkMacSystemFont, '.PingFang-SC-Regular', 'Microsoft YaHei', 'Segoe UI',
+    'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body,
