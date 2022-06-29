@@ -432,7 +432,7 @@
         r = a.n(o),
         i = a(56);
       const l = 'mainnet',
-        s = 'https://dex-bin.bnbstatic.com/5134e38f';
+        s = 'https://web-platform-taw5eb.stackblitz.io';
       (window.__network__ = 'mainnet'),
         (window.__commit__ = '5134e38f'),
         (window.__cdn_url__ = s);
@@ -1652,13 +1652,13 @@
         'true' ===
         Object({
           NODE_ENV: 'production',
-          PUBLIC_URL: 'https://dex-bin.bnbstatic.com/5134e38f',
+          PUBLIC_URL: 'https://web-platform-taw5eb.stackblitz.io',
           WDS_SOCKET_HOST: void 0,
           WDS_SOCKET_PATH: void 0,
           WDS_SOCKET_PORT: void 0,
           REACT_APP_GIT_SHA: '5134e38f',
           REACT_APP_MINITOKEN_ENABLED: 'true',
-          REACT_APP_STATIC_HOST: 'https://dex-bin.bnbstatic.com',
+          REACT_APP_STATIC_HOST: 'https://web-platform-taw5eb.stackblitz.io',
           REACT_APP_NETWORK_ENV: 'mainnet',
           REACT_APP_EXPLORER: 'https://explorer.binance.org',
         }).REACT_APP_ENABLE_TOKEN_MANAGEMENT;
@@ -6459,25 +6459,25 @@
       const t =
         !!Object({
           NODE_ENV: 'production',
-          PUBLIC_URL: 'https://dex-bin.bnbstatic.com/5134e38f',
+          PUBLIC_URL: 'https://web-platform-taw5eb.stackblitz.io',
           WDS_SOCKET_HOST: void 0,
           WDS_SOCKET_PATH: void 0,
           WDS_SOCKET_PORT: void 0,
           REACT_APP_GIT_SHA: '5134e38f',
           REACT_APP_MINITOKEN_ENABLED: 'true',
-          REACT_APP_STATIC_HOST: 'https://dex-bin.bnbstatic.com',
+          REACT_APP_STATIC_HOST: 'https://web-platform-taw5eb.stackblitz.io',
           REACT_APP_NETWORK_ENV: 'mainnet',
           REACT_APP_EXPLORER: 'https://explorer.binance.org',
         }).REACT_APP_GOOGLE_UNLOCK_API_KEY &&
         !!Object({
           NODE_ENV: 'production',
-          PUBLIC_URL: 'https://dex-bin.bnbstatic.com/5134e38f',
+          PUBLIC_URL: 'https://web-platform-taw5eb.stackblitz.io',
           WDS_SOCKET_HOST: void 0,
           WDS_SOCKET_PATH: void 0,
           WDS_SOCKET_PORT: void 0,
           REACT_APP_GIT_SHA: '5134e38f',
           REACT_APP_MINITOKEN_ENABLED: 'true',
-          REACT_APP_STATIC_HOST: 'https://dex-bin.bnbstatic.com',
+          REACT_APP_STATIC_HOST: 'https://web-platform-taw5eb.stackblitz.io',
           REACT_APP_NETWORK_ENV: 'mainnet',
           REACT_APP_EXPLORER: 'https://explorer.binance.org',
         }).REACT_APP_GOOGLE_UNLOCK_CLIENT_ID;
@@ -7043,13 +7043,13 @@
         o =
           (Object({
             NODE_ENV: 'production',
-            PUBLIC_URL: 'https://dex-bin.bnbstatic.com/5134e38f',
+            PUBLIC_URL: 'https://web-platform-taw5eb.stackblitz.io',
             WDS_SOCKET_HOST: void 0,
             WDS_SOCKET_PATH: void 0,
             WDS_SOCKET_PORT: void 0,
             REACT_APP_GIT_SHA: '5134e38f',
             REACT_APP_MINITOKEN_ENABLED: 'true',
-            REACT_APP_STATIC_HOST: 'https://dex-bin.bnbstatic.com',
+            REACT_APP_STATIC_HOST: 'https://web-platform-taw5eb.stackblitz.io',
             REACT_APP_NETWORK_ENV: 'mainnet',
             REACT_APP_EXPLORER: 'https://explorer.binance.org',
           }).REACT_APP_ENABLE_MOONPAY,
@@ -9275,26 +9275,28 @@
         (window.__DEV__ = !1),
         (window.__isTokenTool__ = Object({
           NODE_ENV: 'production',
-          PUBLIC_URL: 'https://dex-bin.bnbstatic.com/5134e38f',
+          PUBLIC_URL: 'https://web-platform-taw5eb.stackblitz.io',
           WDS_SOCKET_HOST: void 0,
           WDS_SOCKET_PATH: void 0,
           WDS_SOCKET_PORT: void 0,
           REACT_APP_GIT_SHA: '5134e38f',
           REACT_APP_MINITOKEN_ENABLED: 'true',
-          REACT_APP_STATIC_HOST: 'https://dex-bin.bnbstatic.com',
+          REACT_APP_STATIC_HOST: 'https://web-platform-taw5eb.stackblitz.io',
           REACT_APP_NETWORK_ENV: 'mainnet',
           REACT_APP_EXPLORER: 'https://explorer.binance.org',
         }).REACT_APP_IS_TOKEN_TOOL),
         (function () {
           if ('serviceWorker' in navigator) {
             if (
-              new URL('https://dex-bin.bnbstatic.com/5134e38f', window.location)
-                .origin !== window.location.origin
+              new URL(
+                'https://web-platform-taw5eb.stackblitz.io',
+                window.location
+              ).origin !== window.location.origin
             )
               return;
             window.addEventListener('load', () => {
               const e = ''.concat(
-                'https://dex-bin.bnbstatic.com/5134e38f',
+                'https://web-platform-taw5eb.stackblitz.io',
                 '/sw.js'
               );
               Fe
